@@ -220,3 +220,43 @@ line-height: 26px;
     color: #fff;
 }
 
+/* Fact section starts here */
+.fact-section{
+    margin-top: 100px;
+    padding: 0 100px;
+}
+
+.facts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-item{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.fact-item h1{
+    color: #424242;
+    margin: 10px 0;
+}
+
+.fact-item h5{
+    color: #727272;
+}
+
+.fact-h{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.fact-p{
+    color: #727272;
+    margin-top: 20px;
+}
+
