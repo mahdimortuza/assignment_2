@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #FF900E;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 30px;
+}
+
+.header-section{
+    padding: 0 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #131313;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 25px;
+}
+
+.header-content{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header-content h1{
+    font-weight: 700;
+    font-size: 64px;
+    Line-height: 75.07px
+}
+
+.header-des{
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.explore-btn{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    border:none;
+}
+
+.header-banner{
+    margin: 25px 0;
+    width: 100%;
+}
+
+/* Feature section starts header */
+
+.feature-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 140px;
+    margin-top: 70px;
+}
+
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.team{
+    width: 200px;
+    height: auto;
+}
+
+.feature-des{
+    margin: auto;
+}
+
+.feature-head span:nth-child(1){
+    color: #131313;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.feature-head span:nth-child(2){
+    color: #727272;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feature-head span:nth-child(3){
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feature-p{
+    color: #727272;
+    font-weight: 400;
+    margin: 20px 0;
+    width: 80%;
+}
+
+/* Experience section starts here */
