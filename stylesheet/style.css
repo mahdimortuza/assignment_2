@@ -32,8 +32,7 @@ nav{
 .logo{
     color: #131313;
     font-weight: 700;
-font-size: 45px;
-line-height: 53px;
+    font-size: 3em;
 }
 
 .menu{
@@ -71,7 +70,7 @@ line-height: 53px;
 .explore-btn{
     background-color: var(--primary-color);
     border-radius: 8px;
-    padding: 10px;
+    padding: 15px;
     color: #fff;
     border:none;
 }
@@ -108,20 +107,20 @@ line-height: 53px;
 
 .feature-head span:nth-child(1){
     color: #131313;
-    font-size: 45px;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
 .feature-head span:nth-child(2){
     color: #727272;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.5em;
 }
 
 .feature-head span:nth-child(3){
     color: var(--primary-color);
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.5em;
 }
 
 .feature-p{
@@ -160,8 +159,7 @@ line-height: 53px;
 .experience-head{
     color: #131313;
     font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
+    font-size: 3em;
 }
 
 .experience-p{
@@ -209,15 +207,13 @@ line-height: 26px;
 
 .xp-btn h1{
     font-weight: 700;
-    font-size: 65px;
-    line-height: 70px;
+    font-size: 3em;
     color: #fff;
 }
 
 .xp-btn p{
     font-weight: 500;
     font-size: 25px;
-    line-height: 40px;
     color: #fff;
 }
 
@@ -238,6 +234,24 @@ line-height: 26px;
     padding: 20px;
     text-align: center;
     margin-top: 80px;
+}
+
+.fact-item img{
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+.fact-item:hover img{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    border: 2px dashed crimson;
+}
+
+.fact-item:hover{
+    box-shadow: 0px 12px 20px 3px rgba(0, 0, 0, 0.1);
+    
 }
 
 .fact-item h1{
@@ -272,7 +286,6 @@ line-height: 26px;
     margin: 20px 0;
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px;
     color: #131313;
 }
 
@@ -291,11 +304,162 @@ line-height: 26px;
 footer{
     background: #FFF4E7;
     border-radius: 8px;
-    margin: 100px 100px;
+    margin: 80px 100px 20px 100px;
 }
 
 footer p{
     text-align: center;
     padding: 0 100px;
     padding: 20px 0;
+}
+
+.hide{
+    display: none;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 576px) {
+
+    /* Header section starts */
+    .header-section{
+        padding: 0 30px;
+    }
+
+    .logo{
+        color: #131313;
+        font-weight: 600;
+        font-size: 2.5em;
+    }
+
+    .menu li{
+        display: block;
+    }
+
+    .menu li a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        color: #424242;
+        margin-left: 10px;
+    }
+
+    .header-content h1{
+        font-size: 3.5em;
+        font-weight: 500;
+    }
+
+    /* Feature section */
+
+    .feature-section{
+        flex-direction: column;
+        gap: 50px;
+        padding: 0 30px;
+        margin-top: 70px;
+    }
+
+    .feature-img{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .team{
+        width: 80%;
+    }
+    
+
+    /* Experience section starts here */
+
+    .experience-section{
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience-head{
+        font-weight: 600;
+        font-size: 2.15em;
+    }
+
+    .experience-des{
+        margin: 0 0px 0 0;
+        width: 100%;
+    }
+
+    .xp-btn{
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .xp-btn h1{
+        font-weight: 600;
+        font-size: 3.5em;
+    }
+
+    .xp-btn p{
+        font-weight: 400;
+        font-size: 1.8em;
+    }
+
+    /* Fact section starts here */
+    .fact-section{
+        margin-top: 80px;
+        padding: 0 30px;
+    }
+
+    .facts{
+        flex-direction: column;
+    }
+
+    .fact-item{
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* Sponsor section starts here */
+    .sponsor-section{
+        padding: 0 30px;
+        margin-top: 100px;
+    }
+
+    .sponsor-head{
+        font-weight: 600;
+        font-size: 3em;
+    }
+
+    .sponsor-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsor-item img{
+        width: 200px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    /* Footer section starts here */
+    footer{
+        margin: 80px 30px 0px 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
