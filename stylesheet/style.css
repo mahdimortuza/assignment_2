@@ -234,12 +234,13 @@ line-height: 26px;
     padding: 20px;
     text-align: center;
     margin-top: 80px;
+    transition: 0.3s ease-in-out;
 }
 
 .fact-item img{
     width: 80px;
     height: auto;
-    padding: 10px;
+    padding: 5px;
     transition: .3s ease-in-out;
 }
 
@@ -444,22 +445,5 @@ footer p{
     footer{
         margin: 80px 30px 0px 30px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+ /* The end */
